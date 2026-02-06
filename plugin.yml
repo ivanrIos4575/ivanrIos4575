@@ -1,0 +1,14 @@
+name: GiveAll
+main: Ivanr\GiveAll\Main
+version: 1.0.0
+api: 5.0.0
+author: ivanr
+description: Da items a todos los jugadores conectados.
+commands:
+  giveall:
+    description: Da un item a todos los jugadores conectados.
+    usage: "/giveall <item> [cantidad]"
+    permission: giveall.command
+permissions:
+  giveall.command:
+    default: op
